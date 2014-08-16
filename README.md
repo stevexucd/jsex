@@ -2,6 +2,8 @@ jsex
 ====
 
 javascript sequence executer
+
+```javascript
 function jsextest() {
 	var jsex = new JSEX();
 	var p = {
@@ -28,3 +30,4 @@ function jsextest() {
 	jsex.addEventHander('end', function(){console.log('jsex finishied')});
 	jsex.exec();
 }
+```
